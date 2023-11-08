@@ -54,6 +54,15 @@ pipeline {
                 }
             }
         }
+
+        stage('Deploy') {
+            when {
+                expression { currentBuild.branches[0].name == 'main' }
+            }
+            steps {
+                // Perform deployment actions (e.g., deploy the Docker image to your production environment)
+            }
+        }
     }
 
     post {
