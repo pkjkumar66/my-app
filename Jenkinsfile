@@ -55,4 +55,17 @@ pipeline {
             }
         }
     }
+
+    post {
+    // Define actions to take on job success (e.g., notifications)
+    // slackSend channel: '#notifications', color: 'good', message: 'Build successful!'
+        always {
+             // Send an email notification both on job failure and success
+            email subject: 'Jenkins Job Status: ${currentBuild.fullDisplayName}',
+                      body: '''<p>The Jenkins job ${currentBuild.fullDisplayName} has completed with status: ${currentBuild.currentResult}</p>
+                               <p>Please review the build log for details.</p>''',
+                      to: 'pankajkumar130697@gmail.com',
+                      mimeType: 'text/html'
+        }
+    }
 }
