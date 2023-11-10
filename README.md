@@ -66,9 +66,3 @@ Welcome to the Python Programming Workshop! This 5-day intensive program is desi
 ### Additional Notes:
 - Make sure to bring your laptop with Python installed.
 - All code examples and materials will be shared after each session.
-
-Enjoy the workshop!
-
----
-
-Feel free to adjust the time intervals as needed for your specific workshop requirements.
