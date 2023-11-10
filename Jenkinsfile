@@ -5,7 +5,7 @@ pipeline {
         GITHUB_REPO = 'https://github.com/pkjkumar66/my-app.git'
         BUILD_DIR = 'build'
         DOCKERHUB_USERNAME = pkjkumar66
-        DOCKERHUB_PASSWORD = V@rLhdfztFTj459
+        DOCKERHUB_PASSWORD = 'password'
     }
 
     stages {
