@@ -1,76 +1,68 @@
-# my-app
+### Python Workshop - 5-Day Schedule
 
-## Description
+Welcome to the Python Programming Workshop! This 5-day intensive program is designed to cover both basic and advanced aspects of Python programming. Below is the schedule for each day:
 
-This project is a simple to-do app that allows users to manage their tasks. Users can add new tasks, view their existing tasks, and delete tasks when they are completed. The app provides a straightforward interface for organizing and tracking your to-do list.
+### Day 1: Python Basics
 
+| Time Range   | Topic                                                              |
+|--------------|--------------------------------------------------------------------|
+| 9:00 AM - 10:30 AM | Introduction to Python and Setup                              |
+| 10:30 AM - 10:45 AM | Break                                                |
+| 10:45 AM - 12:30 PM | Variable, Constant, Comments, Data Types                    |
+| 12:30 PM - 1:30 PM  | Lunch Break                                           |
+| 1:30 PM - 3:00 PM   | Number Types, Operators, Strings                          |
+| 3:00 PM - 3:15 PM   | Break                                                |
+| 3:15 PM - 4:30 PM   | Print Format, Basic Input Output, Conditionals, Switch, Loops, Functions |
+                                      
 
-## Postman Collection
+### Day 2: Python Basics (continued)
 
-Explore and test the APIs using the provided Postman collection.
+| Time Range   | Topic                                                              |
+|--------------|--------------------------------------------------------------------|
+| 9:00 AM - 10:30 AM | Review and Q&A                                         |
+| 10:30 AM - 10:45 AM | Break                                                |
+| 10:45 AM - 12:30 PM | Advanced Python Concepts Introduction                  |
+| 12:30 PM - 1:30 PM  | Lunch Break                                           |
+| 1:30 PM - 3:00 PM   | Introduction to Modules, Lists                          |
+| 3:00 PM - 3:15 PM   | Break                                                |
+| 3:15 PM - 4:30 PM   | Tuple, Dictionary, Sets, Class, Inheritance, Polymorphism |
 
-[Postman Collection](https://red-water-686645.postman.co/workspace/My-Workspace~bfb5c795-ecc4-4e23-8ad9-7c7fe4b847b4/collection/25669291-4880319b-c547-4a21-b231-07fbed39937f?action=share&creator=25669291)
+### Day 3: Advanced Python
 
-## Docker Image
+| Time Range   | Topic                                                              |
+|--------------|--------------------------------------------------------------------|
+| 9:00 AM - 10:30 AM | Exceptions, JSON, OS Library                             |
+| 10:30 AM - 10:45 AM | Break                                                |
+| 10:45 AM - 12:30 PM | File Handling                                        |
+| 12:30 PM - 1:30 PM  | Lunch Break                                           |
+| 1:30 PM - 3:00 PM   | Error Handling, Visualization (Graphs)                  |
+| 3:00 PM - 3:15 PM   | Break                                                |
+| 3:15 PM - 4:30 PM   | Introduction to Data Structures                         |
 
-Pull the Docker image from DockerHub:
+### Day 4: Object-Oriented Programming (OOP)
 
-```bash
-docker pull pkjkumar66/my-app:latest
-```
+| Time Range   | Topic                                                              |
+|--------------|--------------------------------------------------------------------|
+| 9:00 AM - 10:30 AM | OOPs Concepts (Abstraction, Encapsulation, Inheritance, Polymorphism) |
+| 10:30 AM - 10:45 AM | Break                                                |
+| 10:45 AM - 12:30 PM | Closure and Decorator                                  |
+| 12:30 PM - 1:30 PM  | Lunch Break                                           |
+| 1:30 PM - 3:00 PM   | Static Method and Class Method                         |
+| 3:00 PM - 3:15 PM   | Break                                                |
+| 3:15 PM - 4:30 PM   | Lambda Functions                                       |
 
+### Day 5: Python Packages and Advanced Concepts
 
-## APIs
+| Time Range   | Topic                                                              |
+|--------------|--------------------------------------------------------------------|
+| 9:00 AM - 10:30 AM | Overview of Packages (SSH, REST API, Logger, Abstract)     |
+| 10:30 AM - 10:45 AM | Break                                                |
+| 10:45 AM - 12:30 PM | Data Structures, Algorithms, Abstract Data Types           |
+| 12:30 PM - 1:30 PM  | Lunch Break                                           |
+| 1:30 PM - 3:00 PM   | Final Project and Presentation                         |
+| 3:00 PM - 3:15 PM   | Q&A Session                                          |
+| 3:15 PM - 4:30 PM   | Closing Remarks                                       |
 
-### Home Page
-
-Get the home page.
-
-```bash
-curl --location 'http://127.0.0.1:5000/'
-```
-
-### Add Items
-Add a new task to the to-do list.
-```bash
-curl --location 'http://127.0.0.1:5000/add_item' \
---header 'Content-Type: application/json' \
---data-raw '{ "username" : "Pankaj", "item" : "take devops session" }'
-```
-
-### View Item
-View the to-do list for a specific user.
-```bash
-curl --location 'http://127.0.0.1:5000/view_items/Pankaj'
-```
-
-
-### Delete Items
-Delete a task from the to-do list for a specific user by item ID.
-```bash
-curl --location --request DELETE 'http://127.0.0.1:5000/delete_item/Pankaj/3'
-```
-
-
-
-## Docker Container
-Run the app on your local machine using a Docker container:
-```bash
-docker run -p 5000:5000 pkjkumar66/my-app:latest
-```
-
-## Installation
-- Clone the repository.
-- Install the required dependencies.
-- Run the application.
-
-
-## Usage
-- Access the home page to get started.
-- Add tasks to your to-do list using the "Add Items" API.
-- View your current tasks using the "View Item" API.
-- Delete completed tasks using the "Delete Items" API.
-
-
-## Contributing
-We welcome contributions! Please follow our guidelines for contributing to this project.
+### Additional Notes:
+- Make sure to bring your laptop with Python installed.
+- All code examples and materials will be shared after each session.
